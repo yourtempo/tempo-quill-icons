@@ -1,0 +1,26 @@
+{
+  "name": "tempo-iconset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yourtempo/tempo-iconset.git",
+  "author": "Leo Bernard <admin@leolabs.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "@svgr/cli": "^5.5.0",
+    "@types/lodash": "^4.14.172",
+    "@types/node": "^16.7.1",
+    "@types/react": "^17.0.19",
+    "lodash": "^4.17.21",
+    "react-native-svg": "^12.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": ">= 16"
+  },
+  "scripts": {
+    "build:web": "yarn svgr --typescript --replace-attr-values \"#535358=currentColor\" -d .build/web icons",
+    "build:rn": "yarn svgr --native --typescript --replace-attr-values \"#535358=currentColor\" -d .build/rn icons",
+    "build": "yarn build:web && yarn build:rn"
+  }
+}
