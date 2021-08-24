@@ -1,7 +1,7 @@
 {
   "name": "tempo-iconset",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/web/index.jsx",
   "repository": "https://github.com/yourtempo/tempo-iconset.git",
   "author": "Leo Bernard <admin@leolabs.org>",
   "license": "MIT",
@@ -21,6 +21,6 @@
   "scripts": {
     "build:web": "yarn svgr --typescript --replace-attr-values \"#535358=currentColor\" -d .build/web icons",
     "build:rn": "yarn svgr --native --typescript --replace-attr-values \"#535358=currentColor\" -d .build/rn icons",
-    "build": "yarn build:web && yarn build:rn"
+    "build": "yarn build:web && yarn build:rn && yarn tsc && rm -rf .build"
   }
 }
