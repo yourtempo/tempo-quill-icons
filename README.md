@@ -11,4 +11,4 @@ Everything below is in progress, but the general idea is as follows:
 3. ...
 
 ## Overview
-<img width="624" alt="icons_overview" src="https://user-images.githubusercontent.com/10330611/130943465-aa91af64-9634-413b-9312-ce676b6739ff.png">
+![icons_overview](https://user-images.githubusercontent.com/10330611/130943655-8aae5359-efd6-454b-8df1-d53c1a9eb62d.png)
