@@ -11,4 +11,4 @@ Everything below is in progress, but the general idea is as follows:
 3. ...
 
 ## Overview
-![icons_overview](https://user-images.githubusercontent.com/10330611/130943655-8aae5359-efd6-454b-8df1-d53c1a9eb62d.png)
+![quill_overview](https://user-images.githubusercontent.com/10330611/130947799-b6d79d8e-da99-46fe-a9c5-50cb7c31946f.png)
