@@ -9,3 +9,6 @@ Everything below is in progress, but the general idea is as follows:
 1. Quill is independently maintained in this repo
 2. When building a new version of any app, the app pulls in the latest icons
 3. ...
+
+## Overview
+<img width="624" alt="icons_overview" src="https://user-images.githubusercontent.com/10330611/130943465-aa91af64-9634-413b-9312-ce676b6739ff.png">
