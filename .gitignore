@@ -5,3 +5,4 @@ yarn-error.log
 /web/
 /rn/
 /node_modules/
+.DS_Store
