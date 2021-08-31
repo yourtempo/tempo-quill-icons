@@ -5,10 +5,7 @@ tempo-quill-icons is a collection of UI icons designed on a 32x32 base grid with
 
 
 ## How to use Quill in your project
-Everything below is in progress, but the general idea is as follows:
-1. Quill is independently maintained in this repo
-2. When building a new version of any app, the app pulls in the latest icons
-3. ...
+Quill is offered as an npm-package. Simply add `quill-icons` through NPM and include the name of the icon you'd like to use into your app.
 
 ## Overview
 ![quill_overview](https://user-images.githubusercontent.com/10330611/130947799-b6d79d8e-da99-46fe-a9c5-50cb7c31946f.png)
